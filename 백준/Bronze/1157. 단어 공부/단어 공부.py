@@ -1,3 +1,4 @@
+
 a = str(input())
 
 a = a.upper()
