@@ -24,9 +24,6 @@ result = 3
 
 num, result = moo(num, result)
 
-#print()
-#print(n, num, result)
-
 while True:
 
     n = n - num - int((result-num)/2)
@@ -38,11 +35,6 @@ while True:
 
     num, result = moo(num, result)
 
-    #print()
-    #print(n, num, result)
-
-#print()
-#print(n, num, result)
 
 if n == 1 or n == 4 or n == 8 or n == 11 or n == 16 or n == 19 or n == 23:
     print('m')
